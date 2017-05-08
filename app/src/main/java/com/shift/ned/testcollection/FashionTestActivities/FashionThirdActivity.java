@@ -17,11 +17,11 @@ public class FashionThirdActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fashion_third);
 
-        button1 =(Button)findViewById(R.id.buttonFashion6);
+        button1 =(Button)findViewById(R.id.buttonFashion5);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplication(), FashionSecondActivity.class);
+                Intent intent = new Intent(getApplication(), FashionFourthActivity.class);
                 startActivity(intent);
             }
         });

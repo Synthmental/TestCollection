@@ -34,12 +34,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextViewПодскажите пожалуйста, у меня в фрагменте есть кнопка ,как мне при нажатии перейти из Activity где располагается данный Fragment в другое Activity?﻿"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="TextViewПодскажите пожалуйста, у меня в фрагменте есть кнопка ,как мне при нажатии перейти из Activity где располагается данный Fragment в другое Activity?﻿5"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textSize="30sp"
-        android:textStyle="bold|italic"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:textStyle="bold|italic" />
 </RelativeLayout>
