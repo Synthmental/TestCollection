@@ -18,26 +18,41 @@
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:clickable="true"
-            android:scaleType="fitCenter"
-            android:src="@drawable/ic_arrow_forward_white"
+            android:scaleType="center"
+            android:src="@drawable/fashion"
             app:layout_flexGrow="1" />
 
         <ImageView
             android:id="@+id/scrollImage2"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="150dp"
             android:clickable="true"
-            android:scaleType="fitCenter"
-            android:src="@drawable/ic_arrow_forward_white"
+            android:scaleType="center"
+            android:src="@drawable/undefined"
             app:layout_flexGrow="1" />
-
         <ImageView
             android:id="@+id/scrollImage3"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="150dp"
             android:clickable="true"
-            android:scaleType="fitCenter"
-            android:src="@drawable/ic_arrow_forward_white"
+            android:scaleType="center"
+            android:src="@drawable/hipstota"
+            app:layout_flexGrow="1" />
+        <ImageView
+            android:id="@+id/scrollImage4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:clickable="true"
+            android:scaleType="center"
+            android:src="@drawable/dictionary"
+            app:layout_flexGrow="1" />
+        <ImageView
+            android:id="@+id/scrollImage5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:clickable="true"
+            android:scaleType="center"
+            android:src="@drawable/unnamed"
             app:layout_flexGrow="1" />
 
     </com.google.android.flexbox.FlexboxLayout>

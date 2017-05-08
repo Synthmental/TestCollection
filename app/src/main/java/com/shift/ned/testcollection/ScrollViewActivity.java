@@ -17,6 +17,7 @@ import com.shift.ned.testcollection.TestFragments.FragmentSecond;
 public class ScrollViewActivity extends AppCompatActivity {
 
     ImageView imageView1;
+    ImageView imageView2;
     DraggablePanel draggablePanel;
 
     @Override
@@ -39,8 +40,14 @@ public class ScrollViewActivity extends AppCompatActivity {
             }
         });
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        imageView2 = (ImageView) findViewById(R.id.scrollImage2);
+        imageView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                draggablePanel.maximize();
+            }
+        });
+
 
 
     }

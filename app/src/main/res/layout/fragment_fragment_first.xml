@@ -8,12 +8,17 @@
     <com.github.pedrovgs.DraggablePanel
         android:id="@+id/draggable_panel"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content" >
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:cropToPadding="false"
-        android:scaleType="fitStart"
-        android:src="@drawable/rela" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:cropToPadding="false"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fashion" />
+
+
+    </com.github.pedrovgs.DraggablePanel>
+
 </FrameLayout>
