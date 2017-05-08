@@ -2,14 +2,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.shift.ned.testcollection.TestFragments1.TestFragment1">
+    tools:context="com.shift.ned.testcollection.TestFragments.FragmentFirst">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.github.pedrovgs.DraggablePanel
+        android:id="@+id/draggable_panel2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:cropToPadding="false"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_arrow_back_white" />
 
 
+    </com.github.pedrovgs.DraggablePanel>
 
 </FrameLayout>
