@@ -15,20 +15,6 @@
         android:layout_height="match_parent"
         android:background="@color/colorAccent">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_gravity="bottom">
-
-            <Button
-                android:id="@+id/button8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
-                android:layout_marginTop="17dp"
-                android:text="Button" />
-        </RelativeLayout>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,9 +37,10 @@
         android:id="@+id/fragmLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="142dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <Button
             android:id="@+id/buttonText1"
@@ -80,6 +67,20 @@
             android:layout_weight="0.45"
             android:text="-включить участника в приложения вручную и загрузить файл excel, а система "
             android:textAlignment="center" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="17dp"
+                android:text="Button" />
+        </RelativeLayout>
     </LinearLayout>
 
 </RelativeLayout>

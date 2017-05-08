@@ -23,7 +23,12 @@
             android:name=".ScrollViewActivity"
             android:label="@string/title_activity_scroll_view"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".TestFragments1.ResultActivity"></activity>
+        <activity android:name=".TestFragments1.ResultActivity" />
+        <activity android:name=".FashionTestActivities.FashionFirstActivity" />
+        <activity android:name=".FashionTestActivities.FashionSecondActivity" />
+        <activity android:name=".FashionTestActivities.FashionThirdActivity" />
+        <activity android:name=".FashionTestActivities.FashionFourthActivity" />
+        <activity android:name=".FashionTestActivities.FashionFifthActivity"></activity>
     </application>
 
 </manifest>

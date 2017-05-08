@@ -19,7 +19,7 @@ import com.shift.ned.testcollection.TestFragments1.TestFragment1;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    Button buttonConfrim;
+    Button button;
 
     FragmentFirst frag1;
     FragmentSecond frag2;
@@ -37,8 +37,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         testFrag1 = new TestFragment1();
 
 
-
-
         Intent intent = new Intent(this, IntroActivity.class);
         startActivity(intent);
 
@@ -50,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         fragmentTransaction = getSupportFragmentManager().beginTransaction();
         switch (v.getId()){
             case R.id.buttonText1:
-                fragmentTransaction.replace(R.id.relative, testFrag1);
+                fragmentTransaction.replace(R.id.fragmLayout, frag2);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
         }
