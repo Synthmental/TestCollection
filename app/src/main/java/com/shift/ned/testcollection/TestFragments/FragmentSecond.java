@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.shift.ned.testcollection.FashionTestActivities.FashionFirstActivity;
 import com.shift.ned.testcollection.IntroActivity;
 import com.shift.ned.testcollection.R;
 import com.shift.ned.testcollection.TestFragments1.ResultActivity;
@@ -47,7 +48,7 @@ public class FragmentSecond extends Fragment {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getContext(), "Skip Button Pressed",Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(getActivity(), ResultActivity.class);
+                Intent intent = new Intent(getActivity(), FashionFirstActivity.class);
                 startActivity(intent);
             }
         });
