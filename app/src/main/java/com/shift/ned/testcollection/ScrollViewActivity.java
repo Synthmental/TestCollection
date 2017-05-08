@@ -15,8 +15,6 @@ import android.widget.ImageView;
 import com.github.pedrovgs.DraggablePanel;
 import com.shift.ned.testcollection.TestFragments.FragmentFirst;
 import com.shift.ned.testcollection.TestFragments.FragmentSecond;
-import com.shift.ned.testcollection.TestFragments1.TestFragment1;
-import com.shift.ned.testcollection.TestFragments1.TestFragment2;
 
 import java.util.zip.Inflater;
 
@@ -49,8 +47,6 @@ public class ScrollViewActivity extends AppCompatActivity {
             }
         },0);
 
-
-
         imageView1 = (ImageView) findViewById(R.id.scrollImage1);
         imageView1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,11 +59,6 @@ public class ScrollViewActivity extends AppCompatActivity {
         imageView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                draggablePanel = (DraggablePanel) findViewById(R.id.draggable_panel);
-                draggablePanel.setFragmentManager(getSupportFragmentManager());
-                draggablePanel.setTopFragment(new TestFragment1());
-                draggablePanel.setBottomFragment(new TestFragment2());
-                draggablePanel.initializeView();
                 draggablePanel.maximize();
             }
         });
